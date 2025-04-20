@@ -1,0 +1,156 @@
+/* Reset */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+h1, h2, h3 {
+  margin: 0.5em 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+.logo {
+  height: 40px;
+}
+
+.theme-toggle {
+  margin-left: auto;
+  padding: 10px;
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 50px;
+  background-color: #e9f0ff;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+}
+
+.hero-text p {
+  font-size: 20px;
+}
+
+.store-buttons img {
+  height: 50px;
+  margin: 10px 10px 0 0;
+  cursor: pointer;
+}
+
+.arrow-down {
+  margin-top: 30px;
+  height: 60px;  /* fördubblad storlek */
+  cursor: pointer;
+}
+
+.hero-image {
+  flex: 1;
+  text-align: right;
+}
+
+.hero-image img {
+  max-height: 400px;
+}
+
+/* Partners */
+.partners {
+  display: flex;
+  justify-content: space-around;
+  padding: 60px;
+  background: #fff;
+}
+
+.partners img {
+  height: 0px;
+}
+
+/* Features */
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  padding: 50px 20px;
+  background-color: #f8f8f8;
+}
+
+.feature {
+  text-align: center;
+}
+
+.feature img {
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+/* Feature Phone */
+.feature-phone {
+  text-align: center;
+  padding: 50px;
+  background: #e9f0ff;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #f8f8f8;
+}
+
+/* Dark theme */
+body.dark-theme {
+  background-color: #121212;
+  color: #eee;
+}
+
+body.dark-theme .header,
+body.dark-theme .footer {
+  background-color: #1f1f1f;
+}
+
+body.dark-theme .hero,
+body.dark-theme .feature-phone {
+  background-color: #1f1f1f;
+}
+
+body.dark-theme .features,
+body.dark-theme .partners {
+  background-color: #121212;
+}
+
+body.dark-theme .feature {
+  background-color: #2a2a2a;
+  height: 100px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+body.dark-theme .store-buttons img,
+body.dark-theme .partners img,
+body.dark-theme .feature img {
+  filter: brightness(0.85);
+}
