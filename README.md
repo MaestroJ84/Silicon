@@ -12,21 +12,7 @@ Dynamic testimonials section loaded from an external API
 
 Light/Dark theme toggle
 
- Project Structure
-/assets
-  /icons
-    - logo.svg
-    - partner logos and icons
-  /images
-    - appstore.png
-    - googleplay.png
-    - hero-phones.png
-    - features-phone.png
-    - howitworks-phone images
-index.html
-style.css
-script.js
-README.md
+
 
 🛠️ Technologies Used
 HTML5
